@@ -2,3 +2,5 @@ wrangler.toml
 node_modules
 dist
 worker
+.wrangler
+.dev.vars

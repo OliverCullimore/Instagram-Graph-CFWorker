@@ -1,11 +1,33 @@
 {
   "name": "instagram-graph-cfworker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "2.0.0",
+  "description": "Multi-Tenant Instagram API with Instagram Login on Cloudflare Workers",
+	"keywords": [
+    "instagram-api",
+    "cloudflare-worker"
+  ],
+  "homepage": "https://github.com/workwithpact/Instagram-Graph-CFWorker",
+  "bugs": {
+    "url": "https://github.com/workwithpact/Instagram-Graph-CFWorker/issues"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "alexleclair"
+    },
+		{
+      "name": "OliverCullimore"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workwithpact/Instagram-Graph-CFWorker.git"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --local-protocol https"
+  },
+  "devDependencies": {
+    "wrangler": "^3.60.3"
+  }
 }
